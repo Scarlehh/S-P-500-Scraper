@@ -2,7 +2,7 @@
 
 source venv/bin/activate
 echo "Running scraper..."
-#python3 scraper.py > stocksplit
+python3 scraper.py > stocksplit
 echo "Scraper finished"
 echo "Formatting data..."
 sum=$(awk -F ' ' '{SUM = SUM + $2} END {print SUM}' stocksplit)
