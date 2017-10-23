@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from pandas_datareader import data
 
 allowed_symbols = [
-    "GOOG", "MSFT", "CSCO", "AAPL", "NFLX", "FB",
+    "GOOGL", "GOOG", "MSFT", "CSCO", "AAPL", "NFLX", "FB",
     "ERTS", "ATVI", "SNE",
     "INTL", "ARMH", "QCOM",
     "SNAP", "YEXT", "CLDR", "OKTA", "APPN",
@@ -12,7 +12,7 @@ allowed_symbols = [
     "ZNGA", "BBRY", "YHOO",
     "VMW", "AKAM", "RAX",
     "CHKP", "INTZ", "PANW",
-    "V", "FISV", "eBAY",
+    "V", "FISV", "EBAY",
     "OMISEGo", "Augur", "Filecoin", "Aragon"
 ]
 
