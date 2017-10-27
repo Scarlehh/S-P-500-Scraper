@@ -5,7 +5,7 @@ from pandas_datareader import data
 allowed_symbols = [
     "GOOGL", "GOOG", "MSFT", "CSCO", "AAPL", "NFLX", "FB",
     "ERTS", "ATVI", "SNE",
-    "INTL", "ARMH", "QCOM",
+    "INTC", "ARMH", "QCOM",
     "SNAP", "YEXT", "CLDR", "OKTA", "APPN",
     "QQQ", "GLD",
     "IBM", "HPQ",
